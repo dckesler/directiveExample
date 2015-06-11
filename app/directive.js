@@ -8,6 +8,7 @@ angular.module('directive')
     },
     templateUrl: 'app/directive.html',
     link: function(scope, elem, attrs){
+      console.log(attrs);
       elem.on("click", function(){
         console.log("Clicked`");
       });
